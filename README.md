@@ -6,9 +6,9 @@ This R package provides functions to fit RMRCE and perform cross validation to s
 
 ## RMRCE Installation
 
-TSCAN software can be installed via Github.
-Users should have R installed on their computer before installing TSCAN. R can be downloaded here: http://www.r-project.org/.
-To install the latest version of TSCAN package via Github, run following commands in R:
+RMRCE software can be installed via Github.
+Users should have R installed on their computer before installing RMRCE. R can be downloaded here: http://www.r-project.org/.
+To install the latest version of RMRCE package via Github, run following commands in R:
 ```{r }
 if (!require("devtools"))
   install.packages("devtools")

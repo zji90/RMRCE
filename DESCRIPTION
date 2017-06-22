@@ -1,30 +1,9 @@
-Package: TSCAN
+Package: RMRCE
 Type: Package
-Title: TSCAN: Tools for Single-Cell ANalysis
-Version: 1.7.0
-Date: 2015-8-15
-Author: Zhicheng Ji, Hongkai Ji
+Title: RMRCE: Regularized Maximum Rank Correlation Estimator
+Version: 1.0.0
+Date: 2017-6-22
+Author: Fang Han, Hongkai Ji, Zhicheng Ji, Honglang Wang
 Maintainer: Zhicheng Ji <zji4@jhu.edu>
-Description: TSCAN enables users to easily construct and tune pseudotemporal
-    cell ordering as well as analyzing differentially expressed genes. TSCAN
-    comes with a user-friendly GUI written in shiny. More features will come in
-    the future.
+Description: This R package provides functions to fit RMRCE and perform cross validation to select the optimal tuning parameters for RMRCE.
 License: GPL(>=2)
-Imports:
-    ggplot2,
-    shiny,
-    plyr,
-    grid,
-    fastICA,
-    igraph,
-    combinat,
-    mgcv,
-    mclust,
-    gplots
-VignetteBuilder: knitr
-Suggests:
-    knitr
-Depends:
-    R(>= 2.10.0)
-biocViews: GeneExpression, Visualization, GUI
-RoxygenNote: 6.0.1
