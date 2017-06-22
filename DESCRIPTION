@@ -7,3 +7,4 @@ Author: Fang Han, Hongkai Ji, Zhicheng Ji, Honglang Wang
 Maintainer: Zhicheng Ji <zji4@jhu.edu>
 Description: This R package provides functions to fit RMRCE and perform cross validation to select the optimal tuning parameters for RMRCE.
 License: GPL(>=2)
+RoxygenNote: 6.0.1

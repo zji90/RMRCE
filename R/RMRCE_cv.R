@@ -2,13 +2,13 @@
 #' 
 #' Cross validation for choosing RMRCE tuning parameters
 #'
-#' This function performs a five-fold cross validation to choose the optimal tuning parameter lambda and alpha which yields the smallest testing error.
+#' This function performs a five-fold cross validation to choose the optimal tuning parameters lambda and alpha which yield the smallest testing error.
 #'
 #' @param X A numeric matrix of explanatory variables.
 #' @param Y A numeric vector of response.
-#' @param lambda A numeric vector of tuning parameter lambda that the testing error is to be computed.
-#' @param alpha A numeric vector of tuning parameter alpha that the testing error is to be computed.
-#' @return A data.frame which has three columns: lambda, alpha and corresponding testing error. Lambda and alpha that yields the smallest testing error are selected as the optimal tuning parameters.
+#' @param lambda A numeric vector of tuning parameter lambda for which the testing error is to be computed.
+#' @param alpha A numeric vector of tuning parameter alpha for which the testing error is to be computed.
+#' @return A data.frame which has three columns: lambda, alpha and corresponding testing error. Lambda and alpha that yield the smallest testing error are selected as the optimal tuning parameters.
 #' @export
 #' @author Fang Han, Hongkai Ji, Zhicheng Ji, Honglang Wang <zji4@@jhu.edu>
 #' @examples
